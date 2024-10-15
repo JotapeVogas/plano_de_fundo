@@ -4,17 +4,18 @@ html {
     padding: 0;
     height: 100%;
     overflow: hidden;
-    background: linear-gradient(to bottom, rgb(0, 2, 126), rgb(0, 3, 180), rgb(0, 0, 100));
+    background: linear-gradient(to bottom, rgb(0, 0, 255), rgb(0, 0, 148), rgb(0, 0, 22));
     position: relative;
 }
 
 .particle {
     position: absolute;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, 0.5);
     filter: blur(3px);
-    animation: wave 5s linear infinite;
+    border-radius: 50%; /* Forma circular */
+    background-color: rgba(0, 0, 0, 0.473); /* Cor da partícula com transparência */
+    animation: wave 10s linear infinite; /* Animação de movimento */
 }
+
 
 @keyframes wave {
     0% {

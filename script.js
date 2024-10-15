@@ -1,6 +1,6 @@
-const numParticles = 100;
-const minSize = 5;
-const maxSize = 15;
+const numParticles = 550;
+const minSize = 10;
+const maxSize = 20;
 
 function createParticles() {
     for (let i = 0; i < numParticles; i++) {
